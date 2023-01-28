@@ -25,7 +25,7 @@ tmp = *a;
 void bubble_sort(int *array, size_t size)
 {
 size_t i, len = size;
- bool bubbly = false;
+bool bubbly = false;
 if (array == NULL || size < 2)
 return;
 while (bubbly == false)
