@@ -6,10 +6,10 @@
 * @b: The second integer to swap.
 */
 
-void swap_ints(int *a, int *b)
-{  
+void swap_ints(int *a, int *b)  
+{
   int tmp;
-
+   
   tmp = *a;
   *a = *b;
   *b = tmp;
@@ -28,10 +28,10 @@ void bubble_sort(int *array, size_t size)
   size_t i, len = size; 
   bool bubbly = false;
   
-  if (array == NULL || size < 2)  
+  if (array == NULL || size < 2)
     return;
   
-  while (bubbly == false)   
+  while (bubbly == false)
     {
       bubbly = true; 
       for (i = 0; i < len - 1; i++)
